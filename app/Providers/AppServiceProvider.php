@@ -37,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
 
             $view->with('user',$user)->with('memos',$memos)->with('dates',$dates);
         });
-        Schema::defaultStringLength(191);
+        
         if ($this->app->environment() == 'production') {
             URL::forceScheme('https');
         }
