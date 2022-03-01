@@ -38,8 +38,6 @@ class AppServiceProvider extends ServiceProvider
             $view->with('user',$user)->with('memos',$memos)->with('dates',$dates);
         });
         
-        if ($this->app->environment() == 'production') {
-            URL::forceScheme('https');
-        }
+     
     }
 }
