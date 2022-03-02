@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use App\Models\Date;
 use App\Models\Memo;
+use Illuminate\Support\Facades\Schema;
 
 
 class AppServiceProvider extends ServiceProvider
@@ -37,6 +38,7 @@ class AppServiceProvider extends ServiceProvider
 
             $view->with('user',$user)->with('memos',$memos)->with('dates',$dates);
         });
+        Schema::defaultStringLength(191);
         
      
     }
