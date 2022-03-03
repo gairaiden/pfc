@@ -6,10 +6,6 @@ PFCメモ
 
 食事で摂取した、タンパク質、脂質、炭水化物のグラム数を記入し、栄養素のバランスを記録するアプリです
 
-## 
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com/)**
